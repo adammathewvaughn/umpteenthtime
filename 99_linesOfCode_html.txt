@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<body>
+ <main>
+  <p class="demo" button onclick="singIt">this id the target</p>
+ <button type="button">Press me</button>
+</main>
+<script>
+  function singIt()
+let lines;
+  for (count = 99; count >= 1; count = count - 1) 
+  
+      if (count == 1) {
+          lines = 'line';
+      } 
+      else {
+          lines = 'lines';
+      }
+      document.write(count+` ${lines} of code in my file.`);
+      if (count < 99) {
+          document.write("");        
+          document.write(count+` ${lines} of code in my file,`);
+      }
+  document.write(count+` ${lines} of cooode.`);
+      document.write("Stand up and shout,");
+      document.write('"Comment one out!"');
+      if (count == 1) function myFunction () {
+        document.getElementById("demo").innerHTML = "No more lines of code in my file.";
+      }//document.getElementById("demo").innerHTML=text;
+          </script>
+          </body>
+        }
+      }
